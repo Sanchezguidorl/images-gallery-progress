@@ -1,0 +1,140 @@
+.gallery-admin {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.img-admin-gallery {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.img-container {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.img-admin-gallery {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 0.5s;
+}
+
+.img-admin-gallery:hover {
+    filter: contrast(3);
+    cursor: pointer;
+}
+
+.img-admin-gallery img {
+    height: 100%;
+}
+
+.img-admin-gallery .delete-button {
+    display: none;
+}
+
+.img-admin-gallery:hover .delete-button {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.img-admin-gallery .delete-button:hover {
+    color: red;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.form-control label {
+    text-shadow: 0px 0px 3px #000000;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    padding: 8px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 11px;
+    background-color: #f7d643;
+}
+
+input[type="file"] {
+    background-color: #00000069;
+}
+
+input[type="file" i] {
+    font-size: 10px;
+}
+
+
+.link-home {
+    color: #f7d643;
+    font-size: 30px;
+    border: 1px solid #f7d643;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    transition: 0.8s all;
+    filter: brightness(.7);
+}
+
+.link-home:hover {
+    filter: brightness(1.3);
+}
+
+.miniature-img {
+    margin-top: 10px;
+    height: 90px;
+}
+
+.success-message {
+    color: rgb(1, 204, 1);
+    text-shadow: 0px 0px 5px #000;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+legend {
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 8px #000;
+}
+
+.errors-form-alert {
+    background-color: rgba(250, 235, 215, 0.425);
+    color: rgb(207, 2, 2);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+
+}
+
+.errors-container {
+    min-height: 20px;
+}
+
+.loader-container {
+    background-color: #ffefdd57;
+    width: 100%;
+    display: flex;
+}

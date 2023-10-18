@@ -1,0 +1,32 @@
+#Panel{
+    font-family: 'Orbitron', sans-serif;
+    min-height: 400px;
+    margin: 0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 700px;
+    top: 200px;
+    height: 100%;
+    margin-top: 100px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-top: 36px;
+    margin-bottom: 20px;
+}
+h2{
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid #f7d643;
+}
+h3{
+    padding: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid;
+}
+
