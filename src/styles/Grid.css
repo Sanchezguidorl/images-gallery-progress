@@ -140,11 +140,3 @@ button:hover{
     }
 }
 
-.alert-container{
-background-color: rgba(177, 138, 86, 0.31);
-height: 400px;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-}

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { PersonTransformationInterface } from "../Admin";
 
-const baseUrlApi="http://localhost:5000";
+const baseUrlApi=import.meta.env.VITE_REACT_APP_DB;
 
 export interface PersonFromDbInterface {
     _id: string;
